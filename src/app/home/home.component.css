@@ -1,0 +1,254 @@
+.auth__main__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth__common__container{
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.auth__content{
+    width: 50%;
+    height: 100%;
+    border-radius: 50px;
+    padding: 3%
+}
+.auth__main__content{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.auth__title h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #a9a9a9;
+    padding-bottom: 2rem;
+}
+.right__banner{
+    width: 30.7%;
+    height: 500px;
+}
+.forgot__pass__content,.download__content,.auth__content{
+    background-color: hsla(0,0%,100%,.95);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.forgot__pass__content,.auth__content{
+    align-items: center;
+}
+.forgot__pass__content{
+    width: 100%;
+}
+.download__content{
+    width: 100%;
+}
+.auth__form__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+}
+.form__container{
+    width: 100%;
+}
+form{
+    font-size: 1rem;
+}
+.mobile__input,.password__input{
+    margin-bottom: 35px;
+}
+input{
+    display: block;
+    width: 90%;
+    padding: 10px 16px;
+    line-height: 1.5;
+    color: #5d6163;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d9d9e6;
+    outline-color: #1a69ae;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    outline: 0;
+    font-size: 15px;
+    font-family: "BPG Mrgvlovani", sans-serif !important;
+}
+.label__container{
+    padding-bottom: 10px;
+}
+label{
+    color: #071e3d;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+}
+.forgot__password{
+    transition: .3s;
+    border-bottom: 1px solid #071e3d;
+    max-width: 50%;
+    font-size: 0.8rem;
+}
+.forgot__password a{
+    color: #758192
+}
+.forgot__password a:hover{
+    color: #071e3d;
+}
+.red__button{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    min-height: 55px;
+}
+.red__button button{
+    font-family: "BPG Mrgvlovani", sans-serif !important;
+    border: 1px solid #646464;
+    background-color: transparent;
+    width: 160px;
+    margin-left: 0;
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0 1.25rem;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: .3s;
+    height: 40px;
+}
+.login__container button:hover {
+    background-color: #db0011;
+    color: #fff;
+    border-color: transparent;
+}
+.register__button{
+    display: flex;
+    align-items: center;
+    margin-top:5% ;
+}
+.regiter__user{
+    padding: 8% 0;
+}
+.regiter__user h4{
+    font-size: 0.8rem;
+    color: #071e3d;
+    font-weight: 100;
+}
+.marked{
+    color: #db0011
+}
+.download__info{
+    padding: 8% 17% 25% 8%;
+}
+.download__info p{
+    font-size: 0.9rem;
+    padding-bottom: 5%;
+}
+.download__info a{
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #212529;
+}
+.download__info a:hover{
+    color: #db0011;
+    transition: .4s;
+}
+.system__image{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.system__image img{
+    width: 100%;
+    height: 100%;
+}
+.app-store__container,.google-play__container{
+    width: 40%;
+}
+
+@media screen and (max-width: 1200px) {
+    .auth__common__container{
+        flex-direction: column;
+    }
+    .auth__content{
+        width: 75%;
+    }
+    .right__banner{
+        width: 81%;
+        height: 410px;
+    }
+    .regiter__user,.download__info{
+        padding: 4% 0;
+    }
+    .download__info{
+        width: 90%;
+    }
+    .app-store__container,.google-play__container {
+        width: 15%;
+    }
+    .forgot__password{
+        max-width: 35%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .auth__content{
+        width: 60%;
+        padding: 7% 3%;
+    }
+    input{
+        font-size: 10px;
+    }
+    .auth__title h2{
+        font-size: 1.8rem;
+    }
+    .right__banner{
+        width: 66%;
+        height: 370px;
+    }
+    .download__info{
+        padding: 8% 0;
+    }
+    .app-store__container,.google-play__container {
+        width: 25%;
+    }
+    .forgot__pass__content,.download__content,.auth__content{
+        border-radius: 30px;
+    }
+    .forgot__password{
+        max-width: 80%;
+    }
+}
+@media screen and (max-width: 552px) {
+    .auth__content{
+        width: 85%;
+    }
+    .right__banner{
+        width: 91%;
+        height: 390px;
+    }
+    .forgot__password{
+        max-width: 90%;
+    }
+    .auth__title h2{
+        font-size: 1.6rem;
+    }
+}

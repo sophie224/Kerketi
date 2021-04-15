@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://cdn.web-fonts.ge/fonts/bpg-web-001-caps/css/bpg-web-001-caps.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-mrgvlovani/css/bpg-mrgvlovani.min.css");
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "BPG Mrgvlovani", sans-serif !important;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info__container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: hsla(0,0%,98.8%,.75);
+    border-radius: 8px;
+}
+.info__box h2{
+    color: #1f4287;
+    padding-bottom:1rem;
+    font-size: 1.5rem;
+}
+.info__box{
+    padding: 4% 5%;
+}
+.info__box p{
+    color: #212529;
+    margin-bottom: 1rem;
+    font-size: 0.99rem;
+}
+@media screen and (max-width: 1200px) {
+    .info__container{
+        max-width: 85%;
+    }
+}
